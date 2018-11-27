@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+*{box_sizing: border-box;}
+
+
+	
+	body{
+		margin: 0px;
+	}
+	
+	.menu{	
+		text-align: center;
+		font-family: 'Gochi Hand', cursive;
+		color: white;
+	}
+	header{
+		background-color: black;
+	}
+	
+	h1 {
+		text-align: center;
+		font-family: 'Gochi Hand', cursive;
+	}
+	img{
+		width:100%;
+	}
+	#padre{
+		display:grid;
+		grid-template-areas:
+		'uno dos tres'
+	}
+	#uno{
+		background-color: blue;
+		width:33%;
+		grid-area:uno;
+		text-align: center;
+		padding:5px;
+	}
+	#dos{
+		background-color: red;
+		width:34%;
+		grid-area:dos;
+		text-align: center;
+		padding:5px;
+	}
+	#tres{
+		background-color: green;
+		width:33%;
+		grid-area:tres;
+		text-align: center;
+		padding:5px;
+	}
+	
